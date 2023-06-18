@@ -2,6 +2,7 @@ package com.jsh.board.controller;
 
 import java.util.ArrayList;
 
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
@@ -13,7 +14,7 @@ import com.jsh.board.dto.BoardDto;
 
 @Controller
 public class BoardController {
-	
+
 	@RequestMapping(value = "/write_form")
 	public String write_form() {
 		return "write_form";

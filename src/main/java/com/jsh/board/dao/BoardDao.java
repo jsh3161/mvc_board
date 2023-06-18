@@ -17,6 +17,7 @@ public class BoardDao {
 	DataSource dataSource;
 
 	public BoardDao() {
+	
 		
 		try {
 			Context context = new InitialContext();
